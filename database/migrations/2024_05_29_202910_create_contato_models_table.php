@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         // Schema -> estrutura do banco de dados
-        Schema::create('contato_models', function (Blueprint $table) {
+        Schema::create('contatos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('nome', 50);
